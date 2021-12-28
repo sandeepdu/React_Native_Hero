@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "React_Native_Hero",
+    "slug": "React_Native_Hero",
+    "owner": "sandeepdu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/hero-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2C3C44"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "./app/assets/images/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sandeep.hero"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/icon.png",
+        "backgroundColor": "#293C43"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "description": "A superhero made in React Native",
+    "githubUrl": "https://github.com/sandeepdu/React_Native_Hero"
+  }
+}
