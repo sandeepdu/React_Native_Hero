@@ -6,11 +6,13 @@ $ git clone https://github.com/sandeepdu/React_Native_Hero
 
 # Go into the repository
 $ cd React_Native_Hero
+```
 
 
-### 💻 &nbsp; Install
+### 💻 Install
 
-First you need to install Nodejs and npm, this is different depending on the OS you are running so it is easier to check the node [page](https://nodejs.org/en/download/)
+First you need to install Nodejs and npm
+(https://nodejs.org/en/download/)
 
 Install [expo](https://expo.io/learn), if it fails run you might need to run this with sudo
 
@@ -32,4 +34,9 @@ To Start expo all you have to do is run this line
 expo start
 ```
 
-After expo started, select (i) option to run the app in IOS simulator.
+After expo started, 
+```sh
+expo start
+```
+
+### select [i] option to run the app in IOS simulator.
