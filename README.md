@@ -35,8 +35,5 @@ expo start
 ```
 
 After expo started, 
-```sh
-expo start
-```
 
 ### select [i] option to run the app in IOS simulator.
