@@ -4,6 +4,7 @@ import { COLORS } from "../../styles/colors";
 const styles = StyleSheet.create({
     headerContainer: {
       paddingHorizontal: 20,
+      width: "100%",
     },
     header: {
       flexDirection: "row",
