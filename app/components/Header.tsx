@@ -5,13 +5,14 @@ import BackButton from "./BackButton";
 
 import styles from "./styles/HeaderStyle";
 
-const Header = ({ title, backbutton, navigation }) => {
+const Header = ({ title, backbutton, navigation, item  }) => {
   if (backbutton) {
     return (
       <View style={styles.headerContainer}>
         <SafeAreaView style={styles.header}>
           <BackButton navigation={navigation} />
           <Text style={styles.appTitle}>{title}</Text>
+          <FavoriteButton item={item} />
         </SafeAreaView>
       </View>
     );
